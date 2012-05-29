@@ -14,8 +14,8 @@ public class UI {
         //ui.noInjection();
         //ui.noInjectionButFlexible();
         //ui.dependencyInjectionWithoutSpring();
-        ui.usingSpring();
-        //ui.dependencyInjectionUsingContainer();
+        //ui.usingSpring();
+        ui.dependencyInjectionUsingContainer();
     }
 
     public void noInjection() {
@@ -52,6 +52,7 @@ public class UI {
 
         a.printMe();
         a.setName("Vlad");
+        a.setSkillLevel("-10000");
 
         a = (JuniorDev) factory.getBean("juniorDev");
         a.printMe();
@@ -67,6 +68,8 @@ public class UI {
         devs.add(ryan);
         devs.add(Kurman);
         VirtualValueUnstoppable vvu2 = new VirtualValueUnstoppable(devs);
+
+        vvu2.printAll();
     }
 
 

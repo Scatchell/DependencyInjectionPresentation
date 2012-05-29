@@ -27,5 +27,5 @@ public abstract class Dev {
         this.skillLevel = skillLevel;
     }
 
-    public abstract void printMe();
+    public void printMe(){}
 }

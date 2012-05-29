@@ -13,5 +13,6 @@
         <constructor-arg value="10"/>
     </bean>
 
+    <bean name="devContainer" class="DI.DevContainer"/>
 
 </beans>
