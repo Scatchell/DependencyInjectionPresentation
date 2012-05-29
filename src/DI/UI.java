@@ -11,12 +11,12 @@ public class UI {
     public static void main(String[] args) {
         UI ui = new UI();
 
-        //ui.noInjection();
-        //ui.noInjectionButFlexible();
-        //ui.dependencyInjectionWithoutSpring();
-        //ui.usingSpring();
-        //ui.dependencyInjectionUsingContainer();
-        ui.injectingOneBeanIntoAnother();
+        ui.noInjection();
+//        ui.noInjectionButFlexible();
+//        ui.dependencyInjectionWithoutSpring();
+//        ui.usingSpring();
+//        ui.dependencyInjectionUsingContainer();
+//        ui.injectingOneBeanIntoAnother();
     }
 
     public void noInjection() {
@@ -33,7 +33,7 @@ public class UI {
 
     public void dependencyInjectionWithoutSpring() {
         Dev ryan = new JuniorDev("Ryan", "10");
-        Dev Kurman = new LeadDev("Kurman", "omg", 10);
+        Dev kurman = new LeadDev("Kurman", "omg", 10);
 
         VirtualValueEvenBetter vveb = VirtualValueEvenBetter.instanceOf();
 
@@ -41,7 +41,7 @@ public class UI {
         vveb.printMe();
 
 
-        vveb.setDev(Kurman);
+        vveb.setDev(kurman);
         vveb.printMe();
     }
 

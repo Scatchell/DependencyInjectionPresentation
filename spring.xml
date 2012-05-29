@@ -15,6 +15,9 @@
 
 
 
+
+
+
     <bean name="NicePrinter" class="DI.NicePrinter"/>
 
     <bean name="DevPrintedNicely" class="DI.DevPrintedNicely">
