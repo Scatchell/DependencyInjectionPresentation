@@ -13,7 +13,9 @@ public class UI {
 
         //ui.noInjection();
         //ui.noInjectionButFlexible();
-        ui.dependencyInjectionWithoutSpring();
+        //ui.dependencyInjectionWithoutSpring();
+        ui.usingSpring();
+        //ui.dependencyInjectionUsingContainer();
     }
 
     public void noInjection() {
@@ -42,16 +44,6 @@ public class UI {
         vveb.printMe();
     }
 
-    public void dependencyInjectionUsingContainer() {
-        Dev ryan = new JuniorDev("Ryan", "10");
-        Dev Kurman = new LeadDev("Kurman", "omg", 10);
-
-        List<Dev> devs = new ArrayList<Dev>();
-        devs.add(ryan);
-        devs.add(Kurman);
-        VirtualValueUnstoppable vvu2 = new VirtualValueUnstoppable(devs);
-    }
-
     public void usingSpring() {
         BeanFactory factory = new XmlBeanFactory(new FileSystemResource("spring.xml"));
 
@@ -66,4 +58,16 @@ public class UI {
 
         b.printMe();
     }
+
+    public void dependencyInjectionUsingContainer() {
+        Dev ryan = new JuniorDev("Ryan", "10");
+        Dev Kurman = new LeadDev("Kurman", "omg", 10);
+
+        List<Dev> devs = new ArrayList<Dev>();
+        devs.add(ryan);
+        devs.add(Kurman);
+        VirtualValueUnstoppable vvu2 = new VirtualValueUnstoppable(devs);
+    }
+
+
 }

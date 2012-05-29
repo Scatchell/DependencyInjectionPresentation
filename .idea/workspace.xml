@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f57758e5-0850-4c57-82fe-68ff9df60443" name="Default" comment="" />
+    <list default="true" id="f57758e5-0850-4c57-82fe-68ff9df60443" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DependencyInjection.iml" afterPath="$PROJECT_DIR$/DependencyInjection.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DependencyInjection.ipr" afterPath="$PROJECT_DIR$/DependencyInjection.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DependencyInjection.iws" afterPath="$PROJECT_DIR$/DependencyInjection.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring.xml" afterPath="$PROJECT_DIR$/spring.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DI/Dev.java" afterPath="$PROJECT_DIR$/src/DI/Dev.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DI/JuniorDev.java" afterPath="$PROJECT_DIR$/src/DI/JuniorDev.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DI/LeadDev.java" afterPath="$PROJECT_DIR$/src/DI/LeadDev.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DI/UI.java" afterPath="$PROJECT_DIR$/src/DI/UI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DI/VirtualValue.java" afterPath="$PROJECT_DIR$/src/DI/VirtualValue.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DI/VirtualValueBetter.java" afterPath="$PROJECT_DIR$/src/DI/VirtualValueBetter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DI/VirtualValueEvenBetter.java" afterPath="$PROJECT_DIR$/src/DI/VirtualValueEvenBetter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DI/VirtualValueUnstoppable.java" afterPath="$PROJECT_DIR$/src/DI/VirtualValueUnstoppable.java" />
+    </list>
     <ignored path="DependencyInjection.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,7 +86,7 @@
       <file leaf-file-name="UI.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DI/UI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="47" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.6851211">
+            <state line="47" column="0" selection-start="1147" selection-end="1147" vertical-scroll-proportion="0.5882353">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -182,7 +207,7 @@
     <option name="width" value="1928" />
     <option name="height" value="1044" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -576,20 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DI/VirtualValueUnstoppable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DI/VirtualValue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="5" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
@@ -604,9 +615,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/DI/VirtualValueUnstoppable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DI/UI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="47" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.6851211">
+        <state line="47" column="0" selection-start="1147" selection-end="1147" vertical-scroll-proportion="0.5882353">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
