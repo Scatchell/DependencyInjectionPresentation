@@ -13,6 +13,20 @@
         <constructor-arg value="10"/>
     </bean>
 
-    <bean name="devContainer" class="DI.DevContainer"/>
+
+
+    <bean name="NicePrinter" class="DI.NicePrinter"/>
+
+    <bean name="DevPrintedNicely" class="DI.DevPrintedNicely">
+        <property name="name" value="Lina"/>
+        <property name="skillLevel" value="厉害"/>
+        <property name="np" ref="NicePrinter"/>
+    </bean>
+
+    <bean name="VirtualValueX" class="DI.VirtualValueX">
+        <property name="dev" ref="DevPrintedNicely"/>
+    </bean>
+
+
 
 </beans>

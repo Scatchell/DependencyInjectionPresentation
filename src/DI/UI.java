@@ -15,7 +15,8 @@ public class UI {
         //ui.noInjectionButFlexible();
         //ui.dependencyInjectionWithoutSpring();
         //ui.usingSpring();
-        ui.dependencyInjectionUsingContainer();
+        //ui.dependencyInjectionUsingContainer();
+        ui.injectingOneBeanIntoAnother();
     }
 
     public void noInjection() {
@@ -62,14 +63,26 @@ public class UI {
 
     public void dependencyInjectionUsingContainer() {
         Dev ryan = new JuniorDev("Ryan", "10");
-        Dev Kurman = new LeadDev("Kurman", "omg", 10);
+        Dev kurman = new LeadDev("Kurman", "omg", 10);
+        Dev osaide = new JuniorDev("Osa", "-infinity");
 
         List<Dev> devs = new ArrayList<Dev>();
         devs.add(ryan);
-        devs.add(Kurman);
+        devs.add(kurman);
+        devs.add(osaide);
+
         VirtualValueUnstoppable vvu2 = new VirtualValueUnstoppable(devs);
 
         vvu2.printAll();
+    }
+
+    public void injectingOneBeanIntoAnother() {
+        BeanFactory factory = new XmlBeanFactory(new FileSystemResource("spring.xml"));
+
+        VirtualValueX vvx = (VirtualValueX) factory.getBean("VirtualValueX");
+
+        vvx.printMe();
+
     }
 
 
