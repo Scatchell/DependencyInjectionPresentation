@@ -1,0 +1,28 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.hibernate:hibernate-core:4.0.1.Final',
+            'javax.servlet:servlet-api:2.5',
+            'org.springframework:spring-core:2.5.5',
+            'org.springframework:spring-webmvc:2.5.5',
+            'org.springframework:spring-web:2.5.5',
+            'commons-dbcp:commons-dbcp:1.4',
+            'org.springframework:spring-orm:2.5.5',
+            'com.h2database:h2:1.2.145',
+            'cglib:cglib:2.2.2',
+            'org.freemarker:freemarker:2.3+',
+            'ch.qos.logback:logback-classic:1.0.0',
+            'commons-lang:commons-lang:2.6',
+            'commons-io:commons-io:2.3'
+
+    testCompile 'junit:junit:4.8.1',
+            'org.springframework:spring-test:2.5.5',
+            'org.mockito:mockito-all:1.9.0'
+
+
+}
