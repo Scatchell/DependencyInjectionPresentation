@@ -27,7 +27,7 @@
     </bean>
 
     <bean name="VirtualValueX" class="DI.VirtualValueX">
-        <property name="dev" ref="DevPrintedNicely"/>
+        <property name="dev" ref="DevPrintedNicely2"/>
     </bean>
 
 

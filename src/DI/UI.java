@@ -11,7 +11,7 @@ public class UI {
     public static void main(String[] args) {
         UI ui = new UI();
 
-        ui.noInjection();
+//        ui.noInjection();
 //        ui.noInjectionButFlexible();
 //        ui.dependencyInjectionWithoutSpring();
 //        ui.usingSpring();
@@ -82,8 +82,5 @@ public class UI {
         VirtualValueX vvx = (VirtualValueX) factory.getBean("VirtualValueX");
 
         vvx.printMe();
-
     }
-
-
 }
